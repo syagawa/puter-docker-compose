@@ -21,4 +21,5 @@ RUN apt-get upgrade -y
 
 EXPOSE 4000
 
-WORKDIR /app/puter                                                                                    CMD ["npm", "run", "start"]  
+WORKDIR /app/puter
+CMD ["npm", "run", "start"]  
